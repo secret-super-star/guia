@@ -1,9 +1,47 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>page2</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-icon name="arrow-dropleft-circle" (click)="back()"></ion-icon>
+        <ion-icon class="search" name="search" slot="end"></ion-icon>
+    </ion-toolbar>
+    <ion-img src="/assets/mark.png"></ion-img>
 </ion-header>
 
 <ion-content>
 
+    <ion-grid class="main_content">
+        <ion-row>
+            <ion-col>
+                <div class="ion-text-center content_title">
+                    <h1>Cidades</h1>
+                    <span>Todas</span>
+                </div>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="content_items">
+            <ion-col size="12" style="background-image: url('/assets/aparecida.jpg')">
+                <div class="title">
+                    <h1>Aparecida - SP</h1>
+                </div>
+            </ion-col>
+
+            <ion-col size="12" style="background-image: url('/assets/rio.jpg')">
+                <div class="title">
+                    <h1>Nome da Cidade</h1>
+                </div>
+            </ion-col>
+
+            <ion-col size="12" style="background-image: url('/assets/minas.jpeg')">
+                <div class="title">
+                    <h1>Nome da Cidade</h1>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
 </ion-content>
+
+
+<ion-footer>
+    <app-footer></app-footer>
+</ion-footer>

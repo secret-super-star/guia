@@ -15,7 +15,15 @@ export class FooterComponent implements OnInit {
     }
 
     openconfig() {
-      this.router.navigate(['/comfiguration']);
+        this.router.navigate(['/comfiguration']);
+    }
+
+    openhome() {
+        this.router.navigate(['/page1']);
+    }
+
+    openpage2() {
+        this.router.navigate(['/page2']);
     }
 
 }

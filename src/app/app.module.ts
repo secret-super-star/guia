@@ -17,7 +17,8 @@ import {ComponentsModule} from './components/components.module';
         ComponentsModule,
         BrowserModule,
         IonicModule.forRoot({
-            mode: 'ios'
+            mode: 'ios',
+            backButtonIcon : 'fa-fal-angle-left'
         }),
         AppRoutingModule
     ],
