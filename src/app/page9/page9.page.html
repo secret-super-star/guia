@@ -1,0 +1,60 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-icon (click)="back()" name="arrow-dropleft-circle"></ion-icon>
+    </ion-toolbar>
+    <ion-img src="/assets/mark.png"></ion-img>
+</ion-header>
+
+<ion-content>
+
+    <ion-grid class="main_content">
+        <ion-row>
+            <ion-col>
+                <div class="ion-text-center content_title">
+                    <h1>Entre em contato</h1>
+                </div>
+            </ion-col>
+        </ion-row>
+
+        <ion-list class="contact_list" lines="none">
+            <ion-item lines="none">
+                <ion-avatar class="ion-align-items-center ion-text-center" slot="start">
+                    <ion-icon name="call"></ion-icon>
+                </ion-avatar>
+                <ion-label>
+                    <h3>+123 456 789 234</h3>
+                    <p>Mobile</p>
+                </ion-label>
+            </ion-item>
+            <ion-item lines="none">
+                <ion-avatar class="ion-align-items-center ion-text-center" slot="start">
+                    <ion-icon name="mail"></ion-icon>
+                </ion-avatar>
+                <ion-label>
+                    <h3>Jone.doe@gmail.com</h3>
+                    <p>Home</p>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+
+        <div class="contact_us">
+          <p class="ion-text-center title">Enviar uma mensagem</p>
+
+          <input type="text" id="username" placeholder="Seu name...">
+
+          <input type="text" id="email" placeholder="Seu e-mail...">
+
+          <textarea id="message" placeholder="Mensagem..." rows="5"></textarea>
+
+          <div class="ion-text-right">
+            <button class="active send_message">Enviar Mensagem</button>
+          </div>
+        </div>
+
+    </ion-grid>
+
+</ion-content>
+
+<ion-footer>
+    <app-footer></app-footer>
+</ion-footer>

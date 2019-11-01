@@ -31,7 +31,6 @@ button {
   color: grey;
   background-color: transparent;
   box-shadow: none;
-  outline: none;
   &.active {
     color: white;
     background-color: #53de0a;
@@ -41,6 +40,14 @@ button {
     border: 1px solid grey;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.19);
   }
+}
+
+input, textarea, button, a{
+  outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+  font-style: italic;
 }
 
 ion-toolbar {

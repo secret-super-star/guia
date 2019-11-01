@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-comfiguration',
-  templateUrl: './comfiguration.page.html',
-  styleUrls: ['./comfiguration.page.scss'],
+    selector: 'app-comfiguration',
+    templateUrl: './comfiguration.page.html',
+    styleUrls: ['./comfiguration.page.scss'],
 })
 export class ComfigurationPage implements OnInit {
 
-  constructor() { }
+    constructor(private router: Router) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
+
+    openpage9() {
+        this.router.navigate(['/page9']);
+    }
 
 }

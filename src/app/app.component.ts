@@ -40,6 +40,11 @@ export class AppComponent {
       title: 'Page8',
       url: '/page8',
       icon: 'item4.png'
+    },
+    {
+      title: 'Page9',
+      url: '/page9',
+      icon: 'item4.png'
     }
   ];
 
