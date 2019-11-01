@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NavController} from '@ionic/angular';
 
 @Component({
   selector: 'app-page6',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page6Page implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
+  }
+
+  back() {
+    this.navCtrl.back({animated: false});
   }
 
 }
