@@ -28,6 +28,7 @@ const routes: Routes = [
     loadChildren: () => import('./page5/page5.module').then(m => m.Page5PageModule)
   },
   { path: 'comfiguration', loadChildren: './comfiguration/comfiguration.module#ComfigurationPageModule' },
+  { path: 'page6', loadChildren: './page6/page6.module#Page6PageModule' },
 ];
 
 @NgModule({

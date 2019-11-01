@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {NavController} from '@ionic/angular';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 @Component({
     selector: 'app-page3',
@@ -21,10 +21,14 @@ export class Page3Page implements OnInit {
     }
 
     back() {
-      this.navCtrl.back();
+        this.navCtrl.back();
     }
 
-    viewmore(){
+    viewmore() {
         this.router.navigate(['/page4']);
+    }
+
+    showpage5() {
+        this.router.navigate(['/page6']);
     }
 }
