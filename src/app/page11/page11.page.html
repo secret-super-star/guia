@@ -1,9 +1,92 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>page11</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-icon (click)="back()" name="arrow-dropleft-circle"></ion-icon>
+    </ion-toolbar>
+    <ion-img src="/assets/mark.png"></ion-img>
 </ion-header>
 
 <ion-content>
 
+    <ion-grid class="main_content">
+
+        <ion-row class="content_header">
+            <ion-col class="header_image" size='12' style="background-image: url('/assets/aparecida.jpg')">
+                <div class="title">
+                    <p>
+                        <span class="main">Restaurante</span>
+                        <span class="sub">Apareicda - SP</span>
+                    </p>
+                </div>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="card_container">
+            <ion-col class="title" size="12">
+                <p>
+                    Restaurantes, Cofes, Bares, Lanchonetes
+                </p>
+                <p class="title">
+                    Entre outros...
+                </p>
+            </ion-col>
+
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/noodle1.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/food.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/food1.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/food2.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/food.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-content>
+                        <ion-img src="/assets/food3.png"></ion-img>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <div class="content_footer">
+          <p class="title">Ops!</p>
+          <p class="message">Parece que voce chegou ao fim da lista!</p>
+          <p class="message">Nao encontrou o que procurava?</p>
+
+          <p class="link">Envie-nos sua sugestao</p>
+
+        </div>
+
+    </ion-grid>
+
 </ion-content>
+
+<ion-footer>
+    <app-footer></app-footer>
+</ion-footer>

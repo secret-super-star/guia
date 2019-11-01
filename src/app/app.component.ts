@@ -50,6 +50,11 @@ export class AppComponent {
             title: 'Page10(About Us)',
             url: '/page10',
             icon: 'item4.png'
+        },
+        {
+            title: 'Page11',
+            url: '/page11',
+            icon: 'item4.png'
         }
     ];
 
