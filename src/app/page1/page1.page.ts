@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
-  selector: 'app-page1',
-  templateUrl: './page1.page.html',
-  styleUrls: ['./page1.page.scss'],
+    selector: 'app-page1',
+    templateUrl: './page1.page.html',
+    styleUrls: ['./page1.page.scss'],
 })
 export class Page1Page implements OnInit {
 
-  constructor() { }
+    constructor(private router: Router) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
+    public cidades() {
+        console.log('adfs');
+    }
 }

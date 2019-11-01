@@ -1,0 +1,21 @@
+.footer{
+  ion-grid{
+    padding: 0;
+    ion-col{
+      padding: 0;
+      button{
+        outline: none;
+        background-color: transparent;
+        ion-img{
+          width: 40px;
+          margin: auto;
+        }
+        p{
+          margin: auto;
+        }
+      }
+    }
+  }
+
+
+}
