@@ -26,4 +26,8 @@ export class FooterComponent implements OnInit {
         this.router.navigate(['/page2']);
     }
 
+    openpage8() {
+        this.router.navigate(['/page8']);
+    }
+
 }
