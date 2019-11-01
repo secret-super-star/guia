@@ -18,4 +18,8 @@ export class ComfigurationPage implements OnInit {
         this.router.navigate(['/page9']);
     }
 
+    aboutus() {
+        this.router.navigate(['/page10']);
+    }
+
 }
