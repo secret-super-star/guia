@@ -24,23 +24,6 @@ ion-content {
     padding: 0;
     margin-top: 20px;
 
-    .button_group {
-      button {
-        padding: 5px 20px;
-        border-radius: 10px;
-        color: grey;
-        background-color: transparent;
-        box-shadow: none;
-
-        &.active {
-          color: white;
-          background-color: #53de0a;
-          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.19);
-          outline: none;
-        }
-      }
-    }
-
     .content_title {
       color: grey;
 

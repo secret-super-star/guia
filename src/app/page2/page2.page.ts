@@ -15,8 +15,12 @@ export class Page2Page implements OnInit {
     ngOnInit() {
     }
 
-    back(){
+    back() {
         this.navCtrl.back();
+    }
+
+    gopage3() {
+        this.router.navigate(['/page3']);
     }
 
 }

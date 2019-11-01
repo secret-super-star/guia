@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import {ComponentsModule} from '../components/components.module';
 
-
 import { IonicModule } from '@ionic/angular';
 
 import { Page2Page } from './page2.page';

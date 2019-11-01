@@ -24,3 +24,26 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+button {
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: grey;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  &.active {
+    color: white;
+    background-color: #53de0a;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  &.outline {
+    border: 1px solid grey;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+ion-toolbar {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
