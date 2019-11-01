@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon (click)="back()" name="arrow-dropleft-circle"></ion-icon>
+  </ion-toolbar>
+  <ion-img src="/assets/mark.png"></ion-img>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid class="main_content">
+
+    <ion-row class="content_header">
+      <ion-col class="header_image" size='12' style="background-image: url('/assets/counter.jpg')">
+        <div class="title">
+          <p>
+            <span class="main">Aparecida</span>
+            <span class="sub">San Paulo</span>
+          </p>
+          <div class="action">
+            <ion-item lines="none">
+              <ion-icon name="star" slot="start"></ion-icon>
+              <ion-label>Adicionar aos favoritos</ion-label>
+              <ion-icon name="log-out" slot="end"></ion-icon>
+            </ion-item>
+          </div>
+        </div>
+      </ion-col>
+
+      <ion-col class="content_description">
+        <div class="avalie">
+          <p>Avaliacao:</p>
+          <div class="star-ratings-sprite" slot="start">
+            <span class="star-ratings-sprite-rating" style="width:25%"></span>
+          </div>
+          <button class="outline" slot="start">Abalie</button>
+        </div>
+
+        <p class="title">Menu</p>
+        <ion-list class="menu-item">
+          <ion-item>
+            <ion-label>
+              Lorem ipsum.................................................
+              <p class="sub-title">Lorem ipsum</p>
+            </ion-label>
+            <p>R$00,0</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>
+              Lorem ipsum.................................................
+              <p class="sub-title">Lorem ipsum</p>
+            </ion-label>
+            <p>R$00,0</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>
+              Lorem ipsum.................................................
+              <p class="sub-title">Lorem ipsum</p>
+            </ion-label>
+            <p>R$00,0</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>
+              Lorem ipsum.................................................
+              <p class="sub-title">Lorem ipsum</p>
+            </ion-label>
+            <p>R$00,0</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>
+              Lorem ipsum.................................................
+              <p class="sub-title">Lorem ipsum</p>
+            </ion-label>
+            <p>R$00,0</p>
+          </ion-item>
+        </ion-list>
+
+        <p class="read_more">
+          <span>Ver menu completo</span><ion-icon name="arrow-dropdown"></ion-icon>
+        </p>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+
+<ion-footer>
+  <app-footer></app-footer>
+</ion-footer>

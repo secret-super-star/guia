@@ -35,6 +35,7 @@ const routes: Routes = [
   { path: 'page10', loadChildren: './page10/page10.module#Page10PageModule' },
   { path: 'page11', loadChildren: './page11/page11.module#Page11PageModule' },
   { path: 'page12', loadChildren: './page12/page12.module#Page12PageModule' },
+  { path: 'page13', loadChildren: './page13/page13.module#Page13PageModule' },
 ];
 
 @NgModule({
