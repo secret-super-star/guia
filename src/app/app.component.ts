@@ -28,7 +28,13 @@ export class AppComponent {
     },
     {
       title: 'configuracoes',
-      url: '/page1',
+      url: '/comfiguration',
+      icon: 'item4.png'
+    }
+    ,
+    {
+      title: 'Page7',
+      url: '/page7',
       icon: 'item4.png'
     }
   ];
