@@ -31,4 +31,8 @@ export class Page3Page implements OnInit {
     showpage5() {
         this.router.navigate(['/page6']);
     }
+
+    openpage11() {
+        this.router.navigate(['/page11']);
+    }
 }
