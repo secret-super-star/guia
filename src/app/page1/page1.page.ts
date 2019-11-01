@@ -15,6 +15,6 @@ export class Page1Page implements OnInit {
     }
 
     public cidades() {
-        console.log('adfs');
+        this.router.navigate(['/page2']);
     }
 }

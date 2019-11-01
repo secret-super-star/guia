@@ -1,0 +1,52 @@
+.menu_icon {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  .ios {
+    color: #53de0a;
+  }
+}
+ion-content {
+  .header_content {
+    background: url("/assets/back-pattern.png");
+    height: 230px;
+    .logo_img {
+      width: 200px;
+      margin: auto;
+      padding-top: 50px;
+    }
+  }
+  .main_content{
+    padding: 0;
+    margin-top: 20px;
+    .content_title{
+      h1{
+        color: grey;
+      }
+    }
+    .config-list{
+      ion-icon{
+        font-size: 20px;
+        margin-right: 10px;
+        color: grey;
+      }
+      ion-label{
+        color: grey;
+      }
+    }
+
+    .miral{
+      text-align: center;
+      p{
+        font-size: 14px;
+        color: grey;
+      }
+      ion-img{
+        width: 130px;
+        margin: auto;
+      }
+    }
+  }
+}
+
+
