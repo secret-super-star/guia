@@ -26,7 +26,7 @@
                 <p class="title">Sobre a Cidade</p>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscring elitrm sedb eirmod tempor invidunt ut labore et
                     dolore magna aliquyam eratm sed diam voluptua</p>
-                <p class="read_more">Ver Mais ></p>
+                <p class="read_more" (click)="viewmore()">Ver Mais ></p>
             </ion-col>
         </ion-row>
         <p class="service_title">O que esta procurando</p>
@@ -116,7 +116,7 @@
 
         <ion-row class="slider">
             <p class="title">Galeria da Cidade</p>
-            <ion-col>
+            <ion-col size="12">
                 <div class="gallery">
                     <div class="card">
                         <ion-img src="/assets/aparecida.jpg"></ion-img>
@@ -146,7 +146,8 @@
                         <h3>Harry Potter</h3>
                         <p>Muito LOKO</p>
                     </ion-label>
-                    <div class="star-ratings-sprite"><span style="width:50%" class="star-ratings-sprite-rating"></span></div>
+                    <div class="star-ratings-sprite"><span class="star-ratings-sprite-rating" style="width:50%"></span>
+                    </div>
                 </ion-item>
                 <ion-item lines="none">
                     <ion-avatar slot="start">
@@ -156,7 +157,8 @@
                         <h3>Lory Jan</h3>
                         <p>Amei o Lugar, super reveptivo e divertido!</p>
                     </ion-label>
-                    <div class="star-ratings-sprite"><span style="width:15%" class="star-ratings-sprite-rating"></span></div>
+                    <div class="star-ratings-sprite"><span class="star-ratings-sprite-rating" style="width:15%"></span>
+                    </div>
                 </ion-item>
                 <ion-item lines="none">
                     <ion-avatar slot="start">
@@ -166,7 +168,8 @@
                         <h3>Bod Dilan</h3>
                         <p>Fui com a Familiam e gostel muito. So a feira que e meio tenso.</p>
                     </ion-label>
-                    <div class="star-ratings-sprite"><span style="width:90%" class="star-ratings-sprite-rating"></span></div>
+                    <div class="star-ratings-sprite"><span class="star-ratings-sprite-rating" style="width:90%"></span>
+                    </div>
                 </ion-item>
                 <p class="show_more">Ver todos comentarios ></p>
                 <div class="ion-text-center comment">
@@ -178,6 +181,8 @@
         <div class="ion-text-center exit">
             <button class="outline">Como Chegar</button>
         </div>
+
+
     </ion-grid>
 
 </ion-content>

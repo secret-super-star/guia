@@ -1,9 +1,84 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>page4</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-icon (click)="back()" name="arrow-dropleft-circle"></ion-icon>
+    </ion-toolbar>
+    <ion-img src="/assets/mark.png"></ion-img>
 </ion-header>
 
 <ion-content>
 
+    <ion-grid class="main_content">
+
+        <ion-row class="content_header">
+            <ion-col class="header_image" size='12' style="background-image: url('/assets/aparecida.jpg')">
+
+            </ion-col>
+            <ion-col class="content_description">
+                <p class="title ion-text-center">Sobre a Cidade</p>
+                <p class="description ion-text-center">Lorem ipsum dolor sit amet, consetetur sadipscring elitrm sedb
+                    eirmod tempor invidunt ut labore et
+                    dolore magna aliquyam eratm sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitrm sed diam nonumy eirmod tempor invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam</p>
+            </ion-col>
+        </ion-row>
+
+        <div class="ion-text-center culture">
+            <button class="active">Calendario Cultural</button>
+        </div>
+
+        <p class="service_title ion-text-center">Sobre a Cidade</p>
+
+        <ion-row class="services">
+            <ion-col>
+                <button>
+                    <ion-img src="/assets/credit.png"></ion-img>
+                    <p>Bancos</p>
+                </button>
+            </ion-col>
+            <ion-col>
+                <button>
+                    <ion-img src="/assets/bus.png"></ion-img>
+                    <p>Rodoviaria</p>
+                </button>
+            </ion-col>
+            <ion-col>
+                <button>
+                    <ion-img src="/assets/phone.png"></ion-img>
+                    <p>Telefones Uteis</p>
+                </button>
+            </ion-col>
+            <ion-col>
+                <button>
+                    <ion-img src="/assets/hospital.png"></ion-img>
+                    <p>Hospitais</p>
+                </button>
+            </ion-col>
+        </ion-row>
+
+        <ion-row class="more_information">
+            <div class="ion-text-center title">
+                <ion-icon name="information-circle-outline"></ion-icon>
+                <p>Mais Informacoes</p>
+            </div>
+            <div class="contact">
+                <div class="telephone">
+                    <p class="name">Telefone</p>
+                    <p>(12) 3333.0000 - Camara Municipal</p>
+                    <p>(12) 3333.0000 - Prefeitura</p>
+                </div>
+
+                <p>www.aparecida.com.br</p>
+                <p>contato@aparecidaSP.com.br</p>
+
+            </div>
+        </ion-row>
+
+    </ion-grid>
+
 </ion-content>
+
+<ion-footer>
+    <app-footer></app-footer>
+</ion-footer>

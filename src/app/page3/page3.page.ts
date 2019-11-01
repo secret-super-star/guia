@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {NavController} from '@ionic/angular';
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'app-page3',
@@ -13,7 +14,7 @@ export class Page3Page implements OnInit {
         speed: 400
     };
 
-    constructor(private navCtrl: NavController) {
+    constructor(private navCtrl: NavController, private router: Router) {
     }
 
     ngOnInit() {
@@ -21,5 +22,9 @@ export class Page3Page implements OnInit {
 
     back() {
       this.navCtrl.back();
+    }
+
+    viewmore(){
+        this.router.navigate(['/page4']);
     }
 }
