@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-icon name="arrow-dropleft-circle" (click)="back()"></ion-icon>
+    <ion-icon class="search" name="search" slot="end"></ion-icon>
+  </ion-toolbar>
+  <ion-img src="/assets/mark.png"></ion-img>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid class="main_content">
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center content_title">
+          <h1>Cidades</h1>
+          <span>Todas</span>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <div class="cities">
+      <p class="title">Cidades</p>
+      <ion-row class="city_list">
+        <ion-col size="12" style="background-image: url('/assets/minas.jpeg')">
+          <div class="title">
+            <button>Caxambu</button>
+          </div>
+        </ion-col>
+
+        <ion-col size="12" style="background-image: url('/assets/aparecida.jpg')">
+          <div class="title">
+            <button>Aparecida</button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <div class="location">
+      <p class="title">Locais</p>
+
+      <ion-row>
+        <ion-col size="6">
+          <ion-img src="/assets/Indiana.png"></ion-img>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-img src="/assets/family.png"></ion-img>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-img src="/assets/noodle.png"></ion-img>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-img src="/assets/company.png"></ion-img>
+        </ion-col>
+      </ion-row>
+    </div>
+
+  </ion-grid>
+
+</ion-content>
+
+
+<ion-footer>
+  <app-footer></app-footer>
+</ion-footer>
