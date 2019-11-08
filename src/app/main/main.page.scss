@@ -1,0 +1,56 @@
+ion-content{
+  --background: url('/assets/dark.jpg');
+
+  .logo_img{
+    width: 80px;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 60px;
+    margin: 120px auto 0 auto;
+  }
+
+  h1{
+    text-align: center;
+
+    p{
+      margin: 0;
+      color: white;
+    }
+  }
+
+  .user_form{
+    margin: 0 80px;
+
+    .username{
+      margin-top: 50px;
+      color: white;
+      font-style: italic;
+      font-size: 12px;
+    }
+
+    ion-item{
+      --background: transparent;
+      --highlight-color-focused: white;
+      --border-color: white;
+
+      ion-input{
+        color: white;
+      }
+    }
+
+    ion-button{
+      font-size: 12px;
+      --background: white;
+      color: #53de0a;
+      font-weight: bold;
+      border-radius: 20px;
+      --padding-top : 3px !important;
+      --padding-bottom : 3px !important;
+      --padding-start : 70px;
+      --padding-end : 70px;
+      overflow: hidden;
+    }
+  }
+
+
+}

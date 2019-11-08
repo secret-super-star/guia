@@ -1,0 +1,24 @@
+<ion-content>
+
+    <ion-img src="/assets/mark.png" class="logo_img"></ion-img>
+
+    <h1>
+        <p>Bem Vindo Ao</p>
+        <p>Guia Lazer & Negocios</p>
+    </h1>
+
+    <form class="user_form" #loginForm='ngForm'>
+        <p class="ion-text-center username">Para coninuar, insira seu Nome</p>
+        <ion-item>
+            <ion-input #username='ngModel' [(ngModel)]="userName" id="username" name="username"
+                       required
+                       type="text"></ion-input>
+        </ion-item>
+
+        <div style="text-align: center; margin-top: 100px">
+            <ion-button [disabled]="loginForm.invalid" (click)="signin()">Continuar ></ion-button>
+        </div>
+    </form>
+
+
+</ion-content>
